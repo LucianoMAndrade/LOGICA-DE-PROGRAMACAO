@@ -1,0 +1,148 @@
+Exercício 3 – Inicialização
+Analise o código abaixo:
+
+1. O que pode acontecer ao executar esse código?
+
+Variável sem valor.
+
+2. Corrija o programa realizando a inicialização
+corretamente.
+
+programa {
+  funcao inicio() {
+  inteiro numero=1
+  escreva("Numero: ", numero)  
+ 	 }
+}
+
+Exercício 4 – Escopo
+Analise o código:
+
+1. O código está correto?
+Não. 
+
+2. Explique o erro.
+
+A variável foi definida em um escopo, mas o escreva está em outro escopo.
+
+3. Reescreva o código de forma funcional.
+programa {
+  funcao inicio() {
+    inteiro idade = 20
+    escreva(idade)
+	}
+
+}
+
+Exercício 5 – Boas práticas
+O código abaixo está mal estruturado:
+
+Reescreva o código aplicando boas práticas:
+• Indentação
+• Organização
+• Nome significativo
+
+programa {
+  funcao inicio() {
+    inteiro Numero=10
+    escreva("Valor: ",Numero)  
+  }
+}
+
+Exercício 6 – Tipos Misturados
+Crie um programa que declare:
+• Uma variável produto (cadeia)
+• Uma variável codigo (inteiro)
+• Uma variável preco (real)
+• Uma variável disponivel (logico)
+Atribua valores coerentes e exiba todos organizadamente.
+
+programa {
+  funcao inicio() {
+    cadeia produto="caneta"
+    inteiro codigo=234
+    real preco=10.00
+    logico disponivel=falso
+    escreva("Produto: ",produto,"\n")
+    escreva("Código: ",codigo,"\n")
+    escreva("Preço: R$ ",preco,"\n")
+    escreva("Disponível: ",disponivel,"\n")
+  }
+}
+
+Exercício 7 – Organização e Boas Práticas
+Reescreva o código abaixo aplicando boas práticas:
+
+programa {
+  funcao inicio() {
+    real Numero1=5, Numero2=3, Resultado=0
+    Resultado=Numero1*Numero2
+    escreva("Número 1 = ",Numero1,"\n")
+    escreva("Número 2 = ",Numero2,"\n")
+    escreva("Multiplicando os Números...: ",Resultado,"\n")
+  }
+}
+
+Exercício 809/03/2026 – Corrija os identificadores
+O código abaixo contém erros nos nomes das variáveis. Reescreva
+corretamente:
+
+programa {
+  funcao inicio() {
+    inteiro Valor1=10
+    real PesoTotal=85.15
+    cadeia NomeCliente="Luciano Magalhães de Andrade"
+    logico Verdad=verdadeiro
+  }
+}
+
+Exercício 9 – Apenas Declaração vs Inicialização
+Escreva um programa que:
+1. Declare uma variável chamada quantidadeEstoque.
+2. Depois inicialize essa variável em outra linha.
+3. Exiba o valor com a seguinte frase “A quantidade em
+estoque é x”.
+
+programa {
+  funcao inicio() {
+   inteiro QuantidadeEstoque 
+   QuantidadeEstoque=100
+   escreva("A quantidade em estoque é:",QuantidadeEstoque)
+  }
+}
+
+Exercício 10 – Constante obrigatória
+Crie um programa que:
+1. Declare uma constante chamada LIMITE_MAXIMO com valor
+100.
+2. Declare uma variável chamada valorAtual.
+3. Atribua 80 a valorAtual.
+4. Depois atribua 100 a valorAtual
+5. Exiba os dois valores.
+Após declarar a constante LIMITE_MAXIMO com o valor 100, é possível
+atribuir um novo valor a ela? Tente fazer essa alteração em código.
+
+programa {
+  funcao inicio() {
+    const inteiro LIMITE_MAXIMO=100
+    inteiro ValorAtual=80
+    escreva("Valor Atual: ",ValorAtual,"\n")
+    ValorAtual=100
+    escreva("Valor Atual: ",ValorAtual,"\n")
+    //NÃO É POSSIVEL ALTERAR O VALOR DE UMA CONSTANTE
+  }
+}
+
+Identifique o erro:
+inteiro idade = 18.5 // Não pode inicializar uma variável tipo inteiro com um valor real
+real altura = "1.70" // Uma variável real não pode receber um valor tipo cadeia
+caracter letra = "A" // Não se usa aspas duplas para variável tipo caracter 
+
+Exercício 12 – Convenção de nomenclatura
+Transforme os nomes abaixo para camelCase:
+• NOME_COMPLETO - Resposta: nomeCompleto
+• MEDIA FINAL - Resposta: mediaFinal
+• VALOR_TOTAL_COMPRA - Resposta: valorTotalCompra
+
+
+
