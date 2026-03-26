@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     cadeia NomeAluno
-    inteiro Nota1,Nota2,Nota3
+    real Nota1,Nota2,Nota3
     escreva("Digite o nome do Aluno: ") leia(NomeAluno)
     escreva("Digite a primeira nota: ") leia(Nota1)
     escreva("Digite a segunda nota: ") leia(Nota2)
