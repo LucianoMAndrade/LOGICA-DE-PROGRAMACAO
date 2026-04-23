@@ -16,6 +16,7 @@ programa {
     escreva("1 - SOMAR \n")    
     escreva("2 - SUBTRAIR \n")
     escreva("3 - MULTIPLICAR \n")
+    escreva("4 - SAIR \n")
     escreva("Digite uma opção: ")leia(Opcao)
     faca{
       se(Opcao==1){
@@ -39,6 +40,7 @@ programa {
       escreva("1 - SOMAR \n")    
       escreva("2 - SUBTRAIR \n")
       escreva("3 - MULTIPLICAR \n")
+      escreva("4 - SAIR \n")
       escreva("Digite uma opção: ")leia(Opcao)
     } enquanto(Opcao!=4)       
   }
