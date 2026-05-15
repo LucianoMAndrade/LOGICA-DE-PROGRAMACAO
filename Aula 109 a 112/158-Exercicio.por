@@ -3,6 +3,7 @@ programa {
   funcao Soma(inteiro n){
     se(n==2){
       escreva(n)
+      Tot=Tot+n
       retorne
     }
     se(n%2==0){
@@ -14,7 +15,7 @@ programa {
   }
   funcao inicio() {
     escreva("Soma=")
-    Soma(6)
+    Soma(7)
     escreva("=",Tot)
   }
 }
