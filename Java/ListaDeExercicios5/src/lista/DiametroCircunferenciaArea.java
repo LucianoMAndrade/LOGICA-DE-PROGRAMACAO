@@ -13,8 +13,8 @@ public class DiametroCircunferenciaArea {
 		System.out.println("");
 		System.out.println("");
 		System.out.printf("A diâmetro do círculo: %d%n",Raio*2);
-		System.out.printf("A circunferência do círculo: %f%n",Raio*Math.PI*2);
-		System.out.printf("A área do círculo: %f%n",Math.PI*Raio*Raio);
+		System.out.printf("A circunferência do círculo: %f%n",Raio*3.14159*2);
+		System.out.printf("A área do círculo: %f%n",3.14159*Raio*Raio);
 	}
 
 }
