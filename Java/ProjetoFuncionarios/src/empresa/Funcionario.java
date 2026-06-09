@@ -8,7 +8,7 @@ public class Funcionario {
 		return nome;
 	}
 	public void setNome(String nome) {
-		if(nome!=null && !nome.isBlank()) {
+		if(nome!=null && !nome.trim().isBlank()) {
 			this.nome=nome;
 		} else {
 			System.out.println("Nome inválido!");
@@ -22,9 +22,13 @@ public class Funcionario {
 		if(salario>0) {
 			this.salario = salario;
 		}else {
-			System.out.println("Valor inválido!");
+			System.out.println("Salário inválido!");
 		}
 		
+	}
+	
+	public void calcularSalario() {
+		System.out.println("Salário Base: R$ "+salario);
 	}
 	
 	

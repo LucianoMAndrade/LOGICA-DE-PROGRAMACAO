@@ -14,11 +14,20 @@ public class Gerente extends Funcionario {
 			System.out.println("Bonus inválido!");
 		}
 	}
-	public void exibirDados() {
-		System.out.println("Nome: " + getNome());
-		System.out.println("Salario: "+ getSalario());
-		System.out.println("Bonus: "+bonus);
+	
+	@Override
+	public void calcularSalario() {
+		double saldo;
+		saldo=getSalario()+bonus;
+		System.out.println("Salário Base: R$ "+ saldo);
 	}
+	
+	
+	//public void exibirDados() {
+	//	System.out.println("Nome: " + getNome());
+	//	System.out.println("Salario: "+ getSalario());
+	//	System.out.println("Bonus: "+bonus);
+	//}
 	
 
 }
